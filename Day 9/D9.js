@@ -6,8 +6,8 @@ function add(a, b) {
   console.log(a + b);
 }
 
-add.apply(value1, [2, 3]);
-add.call(value2, 2, 3);
-const y = add.bind(value1, 6, 8);
+add.apply(value1, [4, 6]);
+add.call(value2, 4, 6);
+const y = add.bind(value1, 12, 20);
 console.log(y);
 y();
